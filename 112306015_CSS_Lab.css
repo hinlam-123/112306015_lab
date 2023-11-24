@@ -1,0 +1,71 @@
+/* External CSS file: 112306015_CSS_Lab.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: lightblue;
+}
+
+/* First and Second area styles */
+.first-area,
+.second-area {
+    text-align: center;
+}
+
+.first-area h1,
+.first-area h2 {
+    margin: 0;
+}
+
+/* Second area styles */
+.second-area {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: blue;
+    display: inline;
+}
+
+.services ul {
+    display: none;
+}
+
+.services:hover ul {
+    display: block;
+}
+
+/* Third area styles */
+.third-area {
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+.third-area p {
+    margin: 10px 0;
+}
+
+.email {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
